@@ -1,0 +1,20 @@
+.projects-wrapper {
+	margin: 20px 0;
+}
+
+.projects-wrapper .controls-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	padding: 0 20px;
+}
+.projects-wrapper .sort-wrapper,
+.projects-wrapper .view-wrapper {
+	display: inline-block;
+}
+.projects-wrapper .view-wrapper {
+	margin: 0 10px;
+}
+.projects-wrapper .projects-number-wrapper {
+	font-weight: 700;
+}

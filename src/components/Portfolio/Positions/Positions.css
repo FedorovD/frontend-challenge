@@ -1,0 +1,25 @@
+.positions-wrapper {
+	margin: 20px 0;
+}
+
+.ant-empty {
+	display: none;
+}
+.ant-table-placeholder {
+	padding: 0;
+}
+.ant-card-body  {
+	padding: 24px 0;
+}
+
+.ant-menu-submenu-arrow {
+	right: 0;
+	left: 16px;
+}
+.ant-menu-submenu-title {
+	padding-left: 36px!important;
+}
+
+.ant-table-wrapper.no-columns .ant-table-thead {
+	display: none;
+}

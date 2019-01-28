@@ -1,0 +1,35 @@
+.header-wrapper {
+	background-color: #FFF;
+
+	-webkit-box-shadow: 0px 6px 6px 0px #E2E4E5;
+	-moz-box-shadow:    0px 6px 6px 0px #E2E4E5;
+	box-shadow:         0px 6px 6px 0px #E2E4E5;
+}
+
+.header-wrapper .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-wrapper .menu-items-wrapper,
+.header-wrapper .notifications-wrapper,
+.header-wrapper .user-profile-wrapper {
+	display: inline-flex;
+}
+
+.header-wrapper .menu-item-wrapper,
+.header-wrapper .user-profile-wrapper {
+	padding: 20px;
+}
+.header-wrapper .menu-item-wrapper a,
+.header-wrapper .user-profile-wrapper a  {
+	color: #56595E;
+}
+.notifications-wrapper i {
+	display: flex;
+	font-size: 18px;
+}
+.notifications-wrapper i svg {
+	margin: auto;
+	cursor: pointer;
+}
