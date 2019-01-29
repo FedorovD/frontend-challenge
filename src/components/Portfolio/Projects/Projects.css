@@ -18,3 +18,13 @@
 .projects-wrapper .projects-number-wrapper {
 	font-weight: 700;
 }
+
+.projects-wrapper .content-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.projects-wrapper .pagination-wrapper {
+	display: flex;
+    justify-content: space-around;
+}

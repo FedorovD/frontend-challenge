@@ -1,3 +1,57 @@
 .project-wrapper {
-	width: 200px;
+	width: 226px;
+	padding: 20px;
+}
+
+.project-wrapper .image-wrapper {
+	width: 186px;
+	height: 148px;
+	background-color: gray;
+	border-radius: 4px;
+}
+
+.project-wrapper .title {
+	color: #3B3C3E;
+	font-size: 14px;
+	font-weight: 700;
+
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.project-wrapper .sub-title {
+	font-size: 10px;
+}
+.project-wrapper .row-wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+.project-wrapper ._rating,
+.project-wrapper ._structure,
+.project-wrapper ._projected-return  {
+	padding: 0 2px;
+}
+.project-wrapper .rating-title,
+.project-wrapper .structure-title,
+.project-wrapper .projected-return-title {
+	font-weight: 700;
+	font-size: 12px;
+	opacity: .6;
+
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.project-wrapper .value,
+.project-wrapper .valuee,
+.project-wrapper .value {
+	font-weight: 700;
+	font-size: 12px;
+	opacity: .8;
+}
+
+.project-wrapper .project-info-wrapper {
+	padding: 0 10px;
 }

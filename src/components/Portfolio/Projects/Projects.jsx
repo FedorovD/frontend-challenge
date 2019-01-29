@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './Projects.css'
-import { Card, Select, Radio, Icon } from 'antd';
+import { Card, Select, Radio, Icon, Pagination } from 'antd';
 import ProjectComponent from './Project/Project';
 
 
@@ -16,15 +16,79 @@ class ProjectsComponent extends Component {
 				subtitle: 'Los Angeles, CA',
 				rating: 82,
 				structure: 'Equity',
-				projectedReturr: '5.3 - 10.8%',
-				image: './assets/image.png'
+				projectedReturn: '5.3 - 10.8%',
+				imagePath: ''
+			},
+			{
+				title: 'Single-family rental house',
+				subtitle: 'Los Angeles, CA',
+				rating: 82,
+				structure: 'Equity',
+				projectedReturn: '5.3 - 10.8%',
+				imagePath: ''
+			},
+			{
+				title: 'Commercial renovation',
+				subtitle: 'Los Angeles, CA',
+				rating: 83,
+				structure: 'Equity',
+				projectedReturn: '6.2 - 13.5%',
+				imagePath: ''
+			},
+			{
+				title: 'Single-family rental house',
+				subtitle: 'Los Angeles, CA',
+				rating: 82,
+				structure: 'Equity',
+				projectedReturn: '5.3 - 10.8%',
+				imagePath: ''
+			},
+			{
+				title: 'Single-family rental house',
+				subtitle: 'Los Angeles, CA',
+				rating: 82,
+				structure: 'Equity',
+				projectedReturn: '5.3 - 10.8%',
+				imagePath: ''
+			},
+			{
+				title: 'Commercial renovation',
+				subtitle: 'Los Angeles, CA',
+				rating: 83,
+				structure: 'Equity',
+				projectedReturn: '6.2 - 13.5%',
+				imagePath: ''
+			},
+			{
+				title: 'Single-family rental house',
+				subtitle: 'Los Angeles, CA',
+				rating: 82,
+				structure: 'Equity',
+				projectedReturn: '5.3 - 10.8%',
+				imagePath: ''
+			},
+			{
+				title: 'Single-family rental house',
+				subtitle: 'Los Angeles, CA',
+				rating: 82,
+				structure: 'Equity',
+				projectedReturn: '5.3 - 10.8%',
+				imagePath: ''
+			},
+			{
+				title: 'Commercial renovation',
+				subtitle: 'Los Angeles, CA',
+				rating: 83,
+				structure: 'Equity',
+				projectedReturn: '6.2 - 13.5%',
+				imagePath: ''
 			}
 		]
 
 		return (<div className="projects-wrapper">
 			<Card
 				title="Projects"
-				style={{ width: 600 }}
+				style={{ width: 680 }}
 				>
 				<div className="controls-wrapper">
 					<div className="projects-number-wrapper">
@@ -53,6 +117,9 @@ class ProjectsComponent extends Component {
 					{projectsData.map(project => {
 						return (<ProjectComponent data={project}/>)
 					})}
+				</div>
+				<div className="pagination-wrapper">
+					<Pagination current={1} total={13} />
 				</div>
 			</Card>
 		</div>)

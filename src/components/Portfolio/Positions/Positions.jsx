@@ -63,7 +63,7 @@ class PositionsComponent extends Component {
 		return (<div className="positions-wrapper">
 			<Card
 				title="Positions"
-				style={{ width: 600 }}
+				style={{ width: 680 }}
 				>
 				<div className="menu-wrapper">
 					<Table columns={columns} pagination={{position: "none"}} />
